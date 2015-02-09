@@ -1312,8 +1312,7 @@ pre.prettyprint {
 
 .navbar {
 	margin: 0;
-	padding-left: 0;
-	padding-right: 0;
+	padding:45px 0 20px;
 	border-width: 0;
 	border-radius: 0;
 	-webkit-box-shadow: none;
@@ -1564,10 +1563,14 @@ pre.prettyprint {
 }
 
 .ace-nav .nav-user-photo {
-	margin: -4px 8px 0 0;
-	border-radius: 100%;
-	border: 2px solid #FFF;
-	max-width: 40px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  font-size: 25px;
+  height: 40px;
+  line-height: 30px;
+  margin: -4px 8px 0 0;
+  max-width: 50px;
+  width: 40px;
 }
 
 .ace-nav li.dropdown-footer a .ace-icon {
@@ -20370,7 +20373,7 @@ input.typeahead.scrollable~.tt-dropdown-menu {
 .ace-settings-container {
 	position: absolute;
 	right: 0;
-	top: auto;
+	top: 0;
 	z-index: 12;
 }
 
